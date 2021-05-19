@@ -1,0 +1,13 @@
+.Header {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: rgb(5, 116, 5);
+    height: 3.5vh;
+}
+
+.grid-item {
+    display: grid;
+    grid-auto-columns: auto;
+    align-items: center;
+    justify-content: center;
+}

@@ -1,0 +1,17 @@
+.Footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    height: 5vh;
+}
+
+.footer-column {
+    background-color: grey;
+    border: 1px solid red;
+
+    p {
+        margin: 0;
+    }
+}
